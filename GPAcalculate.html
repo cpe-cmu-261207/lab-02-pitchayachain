@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculate GPA</title>
+        <style>
+        </style>
+        <script src = "GPA.js"></script>
+        <link rel="stylesheet" href="GPA.css">
+    </head>
+        <body>
+            <h1 align = "center">GPA CALCULATE</h1>
+            <form id="calculatecontainer">
+            <table align="center" width="80%" style="padding: 10px;">
+            <tr>
+            <td  align="center">
+            <input id="subject" type="text" placeholder="รหัสวิชา">
+            <input id="term" type="text" placeholder="ภาคเรียน">
+            <input id="credit" type="text" placeholder="หน่วยกิต">
+            <select name ="Grade" id ="grade">
+                <option value = "A">A</option>
+                <option value = "B">B+</option>
+                <option value = "A">B</option>
+                <option value = "C+">C+</option>
+                <option value = "C">C</option>
+                <option value = "D+">D+</option>
+                <option value = "D">D</option>
+                <option value = "F">F</option>
+            </select> 
+            <button type="submit" id="addbutton">+</button>
+            <ul id= "tablist">
+            </ul>
+        </td>
+        </tr>
+            </table>
+        </form>
+        </body>
+</html>
